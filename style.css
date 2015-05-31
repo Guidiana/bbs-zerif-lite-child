@@ -23,6 +23,11 @@ a:hover, a:focus, a:active {
     color: #e2a049;
 }
 
+.navbar-inverse .navbar-nav>li>a:hover,
+.navbar-inverse .navbar-nav>li>a:focus {
+    color: #e2a049;
+}
+
 li.current > a:before {
     background: #e2a049 !important;
 }
@@ -32,27 +37,51 @@ li.current > a:before {
 }
 
 .intro-subtitle {
-  text-align: center;
-  color: #e2a049;
-  line-height: 48px;
-  z-index: 0;
-  text-transform: uppercase;
-  font-size: 36px;
-  float: none;
+    text-align: center;
+    color: #e2a049;
+    line-height: 48px;
+    z-index: 0;
+    text-transform: uppercase;
+    font-size: 36px;
+    float: none;
 }
 
 @media (max-width: 992px) {
-.intro-subtitle {
-  line-height: 36px;
-  font-size: 24px !important;
-}
+    .intro-subtitle {
+        line-height: 36px;
+        font-size: 24px !important;
+    }
 }
 
 @media (max-width: 480px) {
-.intro-subtitle {
-  line-height: 28px;
-  font-size: 20px !important;
+    .intro-subtitle {
+        line-height: 28px;
+        font-size: 20px !important;
+    }
 }
+
+.focus-box .service-icon .pixeden {
+    background-size: cover !important;
+}
+
+.focus-box:nth-child(4n+1) .service-icon {
+    border: 10px solid #e96656;
+}
+
+.focus-box:nth-child(4n+2) .service-icon {
+    border: 10px solid #34d293;
+}
+
+.focus-box:nth-child(4n+3) .service-icon {
+    border: 10px solid #3ab0e2;
+}
+
+.focus-box:nth-child(4n+4) .service-icon {
+    border: 10px solid #f7d861;
+}
+
+.focus-box .service-icon:hover {
+    border: 10px solid #e2a049 !important;
 }
 
 .client-list div a {
