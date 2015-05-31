@@ -21,7 +21,7 @@
 		$zerif_bigtitle_subtitle = get_theme_mod('zerif_bigtitle_subtitle', __('SUBTITLE GOES HERE', 'zerif-lite'));
 
 		if (!empty($zerif_bigtitle_subtitle)):
-			echo '<h2 class="intro-subtitle">'.__($zerif_bigtitle_subtitle, 'zerif-lite').'</h2>';
+			echo '<h4 class="intro-subtitle">'.__($zerif_bigtitle_subtitle, 'zerif-lite').'</h4>';
 		endif;
 
 
