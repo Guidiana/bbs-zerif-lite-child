@@ -138,7 +138,7 @@
 			
 			
 					if( !empty($zerif_copyright) ):
-						echo '&copy; ' . date("Y") . ' ' . esc_attr($zerif_copyright);
+						echo '&copy; ' . date("Y") . ' ' . $zerif_copyright;
 					endif;
 					
 					
